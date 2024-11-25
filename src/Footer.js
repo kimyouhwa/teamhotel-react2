@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import {Link} from 'react-router-dom';
 
 
 const Footer = () => {
@@ -22,9 +23,9 @@ const Footer = () => {
       </div>
         <p className='horizon'></p>
       < div className='copyright_foot'>
-        <span className='admin'><a href='#'>Admin</a></span>
+        <span className='admin'><Link to ="Admin">Admin</Link></span>
         <span>shkkeiHotel</span>
-     <div className='reservation_box'><a href='#'>Reservation Now</a>
+     <div className='reservation_box'><Link to =" Reservation">Reservation Now</Link>
      </div>
       </div>
       </div>
