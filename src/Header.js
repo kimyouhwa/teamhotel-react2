@@ -4,8 +4,10 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <div id="header">
-      <h1 className="Header_title">slrklhiHOTEL</h1>
+    <div id="Header">
+      <div className="header_container">
+      <h1 className="header_title">
+        <Link to="/">slrklhiHOTEL</Link></h1>
       <div className="header_menu_navbar">
         <ul className="nav_item">
           About
@@ -54,6 +56,7 @@ const Header = () => {
         {/* Menu 버튼 클릭 시 MenuLink로 이동 */}
         <Link to="/menu">Menu</Link>
       </div>
+    </div>
     </div>
   );
 };

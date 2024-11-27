@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div id="Footer">
      < div className="Footer_container">
-      <h1> shkkeiHotel </h1>
+      <h1> <Link to="/">slrklhiHOTEL</Link></h1>
       <ul className='conection_foot'>
         <h3>CONTACT US</h3>
         <li>예약문의   1544-8082</li>
@@ -23,9 +23,9 @@ const Footer = () => {
       </div>
         <p className='horizon'></p>
       < div className='copyright_foot'>
-        <span className='admin'><Link to ="Admin">Admin</Link></span>
+        <span className='admin'><Link to ="/Admin">Admin</Link></span>
         <span>shkkeiHotel</span>
-     <div className='reservation_box'><Link to =" Reservation">Reservation Now</Link>
+     <div className='reservation_box'><Link to =" /Reservation">Reservation Now</Link>
      </div>
       </div>
       </div>
